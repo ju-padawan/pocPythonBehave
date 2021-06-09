@@ -5,8 +5,7 @@
         "name": "Behave",
         "type": "python",
         "request": "launch",
-        "module": "behave",
-        "cwd": "${workspaceRoot}/behave"
+        "module": "behave"
       }
     ]
   }
