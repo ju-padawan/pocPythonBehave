@@ -7,7 +7,7 @@ Funcionalidade: Poc
     Para fazer um exemplo
 
 
-    Cenário: Acessar dados cadastrados
+    Cenário: Validar a url de uma nova janela
         Dado que tenha acessado a página Automação com Batista
-        Quando acessar a lista de usuários
-        Então deve exibir o resultado da pesquisa
+        Quando acessar mudança de foco para acessar uma nova janela
+        Então deve exibir uma nova janela com link especificado

@@ -8,7 +8,7 @@ def step_impl(context):
     context.driver.maximize_window()
 
 
-@when(u'acessar a lista de usuários')
+@when(u'acessar mudança de foco para acessar uma nova janela')
 def step_impl(context):
     context.driver.find_element(By.XPATH, "//*[contains(text(), 'Mudança de foco')]").click()
     time.sleep(2)
@@ -16,7 +16,7 @@ def step_impl(context):
     context.driver.find_element(By.XPATH, "//*[contains(text(), 'Clique aqui')]").click()
 
 
-@then(u'deve exibir o resultado da pesquisa')
+@then(u'deve exibir uma nova janela com link especificado')
 def step_impl(context):
     time.sleep(2)
     context.driver.switch_to.window(context.driver.window_handles[1])
