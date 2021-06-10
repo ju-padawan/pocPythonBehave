@@ -15,4 +15,8 @@ Teste automatizado usando python com behave
 - Instale as dependências do projeto:
     - pip install -r requeriments.txt
 
-# Para executar o teste basta chamar o behave no terminal na pasta raiz do projeto.
+# Para executar o teste execute no terminal:
+- Para executar todos os testes:
+    - behave
+- Para executar um teste específico(identificado pela tag na feature)
+    - behave --tags="@cenario_teste_02" features/pocPythonBehave.feature 
