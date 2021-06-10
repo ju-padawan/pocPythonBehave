@@ -2,3 +2,6 @@ behave
 selenium
 nose
 webdriver-manager
+docx
+python-docx
+PyYAML
